@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="myAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.edp.connectionFailedController">
+   <children>
+      <Label layoutX="14.0" layoutY="18.0" text="Internet Connection Failed!">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="228.0" layoutY="37.0" mnemonicParsing="false" onAction="#checkConnection" text="Retry" />
+      <Button layoutX="291.0" layoutY="37.0" mnemonicParsing="false" onAction="#exit" text="Close" />
+   </children>
+</AnchorPane>
